@@ -54,7 +54,9 @@ Make sure these Python libraries are installed:
 ### 1. Run as a Python script
 ```bash
 python cord19_analysis.py
+```
 
 **### 2. Run as a Streamlit app**
 ```bash
 streamlit run cord19_analysis.py
+```
