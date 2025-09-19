@@ -1,5 +1,4 @@
-# Frameworks
-
+# Python Frameworks exercise
 # Basic Data Analysis – CORD-19 Dataset
 
 This project demonstrates the full workflow of working with a real dataset (`metadata.csv`) using **Python, pandas, matplotlib, seaborn, and Streamlit**.
@@ -36,6 +35,21 @@ This project demonstrates the full workflow of working with a real dataset (`met
 
 ---
 
+## Dataset
+
+This project uses the **CORD-19 metadata dataset** (`metadata.csv`).  
+
+Because the file is **too large to upload to GitHub (1.5GB)**, it is **not included in this repository**.  
+
+You can download it from the following sources:  
+
+- [CORD-19 Kaggle Dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)  
+- [Semantic Scholar Official Release](https://www.semanticscholar.org/cord19)  
+
+Once downloaded, place the `metadata.csv` file in the **same folder** as the script (`cord19_explorer.py`).
+
+---
+
 ## Requirements
 
 Make sure these Python libraries are installed:
@@ -46,7 +60,6 @@ Make sure these Python libraries are installed:
 - streamlit  
 - (optional) wordcloud  
 
-
 ---
 
 ## How to Run
@@ -55,8 +68,6 @@ Make sure these Python libraries are installed:
 ```bash
 python cord19_analysis.py
 ```
-
-**### 2. Run as a Streamlit app**
+### 2. Run as a Streamlit app
 ```bash
 streamlit run cord19_analysis.py
-```
